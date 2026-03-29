@@ -15,7 +15,7 @@
 	(lib_symbols)
 	(bus_alias "SENSE_SPI"
 		(members "SCK" "MISO" "MOSI" "CS_345" "CS_375" "CS_BMP" "INT_345" "INT_375"
-			"INT_BMP"
+			"INT_BMP" "CS_IMU_ACC" "CS_IMU_GYRO" "INT_IMU_ACC" "INT_IMU_GYRO"
 		)
 	)
 	(text "NOTES:\n\n1. UNLESS OTHERWISE SPECIFIED, ALL CAPACITORS ARE 16V X7R 10%.\n\n2. UNLESS OTHERWISE SPECIFIED, ALL RESISTORS ARE 1/10W 1%.\n\n3. APPLY SILICONE CONFORMAL COATING POST-ASSEMBLY."
@@ -231,16 +231,6 @@
 			(type default)
 		)
 		(uuid "21ae946c-be00-478f-be4e-a08ece849d10")
-	)
-	(bus
-		(pts
-			(xy 182.88 240.03) (xy 104.14 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c08256-28e6-45f9-9316-c1376234a3f4")
 	)
 	(bus
 		(pts
@@ -511,16 +501,6 @@
 			(type default)
 		)
 		(uuid "857cdc61-4508-4f7e-bcc0-b13250c9d2c6")
-	)
-	(bus
-		(pts
-			(xy 182.88 177.8) (xy 182.88 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8872af75-5e08-4d57-b89f-9c194704aaed")
 	)
 	(wire
 		(pts
@@ -1656,16 +1636,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "BNO085{SDA, SCL}" bidirectional
-			(at 104.14 240.03 0)
-			(uuid "6913f877-69c4-42e9-ae02-eeadeb95d213")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "NEOM9N{TX, RX, PPS, RST}" bidirectional

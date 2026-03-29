@@ -14414,6 +14414,15 @@
 				(hide yes)
 			)
 		)
+		(property "ESR" ""
+			(at 24.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e1e5812-ef98-41d3-8627-00987f28c0ea")
 		)
