@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Power")(type "KiCad")(uri "${KIPRJMOD}/Power.kicad_sym")(options "")(descr ""))
   (lib (name "aerolotl_custom")(type "KiCad")(uri "${KIPRJMOD}/libs/aerolotl_custom.kicad_sym")(options "")(descr ""))
+  (lib (name "Aerolotl_Pyro_Lib")(type "KiCad")(uri "${KIPRJMOD}/Aerolotl_Pyro_Lib.kicad_sym")(options "")(descr ""))
 )
