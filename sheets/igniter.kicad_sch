@@ -3680,7 +3680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "100"
 			(at 69.85 153.6699 0)
 			(effects
 				(font
@@ -4137,7 +4137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "100"
 			(at 68.58 62.2299 0)
 			(effects
 				(font
@@ -4863,7 +4863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RFD20N03"
+		(property "Value" "AO3400A"
 			(at 71.12 162.5599 0)
 			(effects
 				(font
@@ -5183,7 +5183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 69.85 142.2399 0)
 			(effects
 				(font
@@ -5355,7 +5355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RFD20N03"
+		(property "Value" "AO3400A"
 			(at 69.85 71.1199 0)
 			(effects
 				(font
@@ -5500,7 +5500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 68.58 50.7999 0)
 			(effects
 				(font
